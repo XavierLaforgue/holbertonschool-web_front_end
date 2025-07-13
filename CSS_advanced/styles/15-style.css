@@ -1,5 +1,15 @@
 @import url('normalize.css');
 
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -23,16 +33,6 @@
   --section-tagline-transform: uppercase;
   --section-title-margin: 0;
   --section-title-color: var(--color-black);
-}
-
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-  font-size: 62.5%;
 }
 
 h1, h2, h3, h4, h5, h6 {
