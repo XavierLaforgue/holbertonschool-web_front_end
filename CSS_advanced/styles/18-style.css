@@ -26,7 +26,7 @@
   --section-padding: 5rem 0;
   --section-header-padding: 0 0 3rem;
   --section-footer-padding: 3rem 0 0;
-  --section-body-padding: 0 0 3rem;
+  --section-body-padding: 0 0 3rem 0;
   --section-footer-align: center;
   --footer-padding: 5rem 0 1rem;
   --nav-item-font-family: var(--font-family-title);
@@ -34,7 +34,7 @@
   --nav-item-font-size: var(--font-size-medium);
   --nav-item-letter-spacing: 0.04rem;
   --nav-item-display: inline-block;
-  --nav-item-margin: 0em 0em 3em 0em;
+  --nav-item-margin: 0 0 3em 0;
   --nav-item-link-hover: var(--color-primary);
 }
 
@@ -143,8 +143,8 @@ a:active {
 .section-tagline {
   color: var(--color-primary);
   font-family: var(--font-family-title);
-  font-weight: var(--font-weight-bold);
   text-transform: var(--section-tagline-transform);
+  font-weight: var(--font-weight-bold);
 }
 
 .container {
