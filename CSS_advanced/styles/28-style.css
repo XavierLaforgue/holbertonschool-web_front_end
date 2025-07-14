@@ -74,16 +74,15 @@ html {
   padding: var(--header-padding);
 }
 
-
 .header-logo {
   position: var(--header-logo-position);
 }
 
-.header-logo link {
+.header-logo a {
   display: var(--header-logo-link-display);
   position: var(--header-logo-link-position);
-  vertical-align: var(--header-logo-link-top);
-  text-align: var(--header-logo-link-left);
+  top: var(--header-logo-link-top);
+  left: var(--header-logo-link-left);
 }
 
 .row::after {
